@@ -1,0 +1,73 @@
+/* Called by className only */
+.container {
+  width: 100%;
+  height: calc(100vh - 80px);
+  display: flex;
+  padding: 100px;
+  background: url("../../public/img/intro.png");
+  background-size: cover;
+  background-position: left center;
+  overflow: hidden;
+  position: relative;
+}
+
+.card {
+  flex: 1;
+  padding: 100px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.title {
+  font-size: 50px;
+  margin: 0;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.logo_icon {
+  border: 1px solid #008000;
+  color: #008000;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.description {
+  font-size: 20px;
+  margin: 25px 0;
+  color: #fff;
+}
+
+.button {
+  border: none;
+  background-color: #008000;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #2eb29e;
+  transition: all 0.2s ease-in-out;
+}
+
+.img {
+  max-width: 100%;
+}
